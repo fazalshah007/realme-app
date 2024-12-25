@@ -3,12 +3,9 @@ import React from 'react'
 const Main = () => {
   return (
     <>
-     <div>
-            <div>
-                <img className="section-img" src="https://image01.realme.net/general/20241212/17339677184375522816ea05448759b75ff71ccb7f35a.jpg.webp" alt="" />
-                <h1 className="section-img-h1">Smart Phones</h1>
-            </div>
-        </div>
+     <main>
+      <img src="https://image01.realme.net/general/20241012/1728700235469216bd1dea87245869ce9ad5fa2566b8e.jpg.webp" alt="" />
+     </main>
     </>
   )
 }

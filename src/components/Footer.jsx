@@ -3,59 +3,74 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-     <div class="footer-container">
-            <div class="footer-section">
-                <h3>Recommended</h3>
-                <ul>
-                    <li><a href="#">realme C75</a></li>
-                    <li><a href="#">realme 13+ 5G</a></li>
-                    <li><a href="#">realme Note 60</a></li>
-                    <li><a href="#">realme C65</a></li>
-                    <li><a href="#">realme 12</a></li>
-                    <li><a href="#">realme 12+ 5G</a></li>
-
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>Support</h3>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Troubleshooting</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>About realme</h3>
-                <ul>
-                    <li><a href="#">Our brand</a></li>
-                    <li><a href="#">Newsroom</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>Contact realme</h3>
-                <ul>
-                    <li><a href="#">Whats,App</a></li>
-                    <li><a href="#">service.pk@realme.com</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>04238048018</h3>
-                <ul>
-                    <li><a href="#">09:30 - 18,MON - SAT</a></li>
-                    <li><a href="#">Exculdes Holidays </a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
-                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i> </a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i> </a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
-
-                </ul>
-                <hr />
-                
-            </div>
+    <div className="footerContainer">
+    <div className="footerSection">
+      <div className="head">
+        <h1>Recommended</h1>
+        <div className="cols">
+          <span>realme C75</span>
+          <span>realme 13 + 5G</span>
+          <span>realme Note 60</span>
+          <span>realme C61</span>
+          <span>realme 12</span>
+          <span>realme 12 + 5G</span>
         </div>
+      </div>
+      <div className="head">
+      <h1>Support</h1>
+      <div className="cols">
+          <span>FAQ</span>
+          <span>Troubleshooting</span>
+         
+        </div>
+      </div>
+      <div className="head">
+      <h1>About realme</h1>
+      <div className="cols">
+          <span>Our Brand</span>
+          <span>Newsroom</span>
+        </div>
+      </div>
+      <div className="head">
+      <h1>Contact realme</h1>
+      <div className="cols">
+          <span>Whatsapp</span>
+          <span>service.pk@realme.com</span>
+        </div>
+      </div>
+      <div className="head">
+        <h1 id="contact">
+        04238048018
+        </h1>
+        <div className="cols">
+          <span>09:30-18:00, MON-SAT</span>
+          <span>Exclude Holidays</span>
+          <span>Facebook</span>
+          <span>Twitter</span>
+          <span>Youtube</span>
+          <span>Instagram</span>
+        </div>
+      </div>
+
+
+  
+    </div>
+    <div className="line"></div>
+    <div className="footerLine">
+      <div className="leftSection">
+      <h1>Pakistan (English / PKR)</h1>
+      <span>2019-2024 realme. All RIghts Reserved</span>
+      </div>
+      <div className="rightSection">
+        <ul>
+          <li><a href="#">User Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Series</a></li>
+          <li><a href="#">Warrenty Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
     </>
   )
 }
